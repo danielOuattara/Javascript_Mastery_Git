@@ -1,0 +1,20 @@
+git config --list
+git config --global --list
+git config --local --list
+
+mkdir mastery-git
+cd mastery-git
+
+touch cmd.txt
+
+touch hello.js
+echo echo console.log\("Hello, Git!"\)>> hello.js
+
+touch readme.md
+
+git add readme.md
+git commit -m "Add read.me file"
+
+git status
+
+git add .
