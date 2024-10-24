@@ -38,6 +38,23 @@ git checkout main  # go back to normal position HEAD state
 
 # now link the remote repo (origin) 
 git remote add origin git@github.com:danielOuattara/Javascript_Mastery_Git.git
-```
 
-## stopped @ 18:27
+# branching & merging
+
+# - Projects branches: `main`, `develop`, `bug-fix`, `feature`
+
+# branch `main` is the default in git
+
+git branch branch-name` : # create a new branch named branch-name
+git checkout branch-name` : # to switch to the newly created branch
+git checkout main` : # to switch back to the main branch
+
+# shortcut
+git checkout -b branch-name` : # to create & switch to the newly created branch
+
+# Note: 
+# 1. when creating a new branch, it will be based on the current branch you are on now
+# 2. the created branch inherits all the code from the base branch
+
+git branch branch-two branch-one # will create branch-two based on branch-one
+```
